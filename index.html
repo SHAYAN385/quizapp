@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="p-2">
+        <div class="container">
+            <div class="bg-secondary p-2 rounded text-white d-flex justify-content-between align-items center">
+
+                <p class="fs-4 m-0 p-0">Quiz Creation App 1</p>
+                <p class="p-0 m-0">
+                    Question <span class="fs-4" id="cureentQuestion">1</span>/
+                    <span id="totalQuestions">10</span>
+                </p>
+            </div>
+
+            <div class="Question bd-info text-white my-2 p-2 rounded">
+                <p id="question" class="text-dark p-0 m-0 fs-3">Question 1</p>
+            </div>
+            <div id="answerParent" class="row my-2">
+                <div class="col-md-6 py-2">
+                    <button class="btn w-100 btn-info">Option 1</button>
+                </div>
+                <div class="col-md-6 py-2">
+                    <button class="btn w-100 btn-info">Option 2</button>
+                </div>
+                <div class="col-md-6 py-2">
+                    <button class="btn w-100 btn-info">Option 3</button>
+                </div>
+                <div class="col-md-6 py-2">
+                    <button class="btn w-100 btn-info">Option 4</button>
+                </div>
+            </div>
+     
+                <div class="text-center my-2">
+                    <button onclick="nextQuestion()" class="btn btn-info rounded-pill px-5">
+                    Next
+                </button>
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
